@@ -8,14 +8,23 @@ Customize the default page greeting of the Nginx Docker image by adding a single
 ```bash
 $ docker run -p 8081:80 -e MSG='Hello from Server A' --name serv_a herreriasjose/nginx
 ```
+<p align="center">
+<img src="images/nginx01.png" width="800">
+</p>
 
 ```bash
 $ docker run -p 8082:80 -e MSG='Hello from Server B' --name serv_b herreriasjose/nginx
 ```
+<p align="center">
+<img src="images/nginx02.png" width="800">
+</p>
 
 ```bash
 $ docker run -p 8083:80 --name serv_raw herreriasjose/nginx
 ```
+<p align="center">
+<img src="images/nginx03.png" width="800">
+</p>
 
 ## What if you want to further change the default page of the Nginx image?
 
@@ -27,8 +36,6 @@ You can find more information here: https://www.docker.com/blog/how-to-use-the-o
 ## Author
 
 * **Jose Herrerías**
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
