@@ -5,6 +5,10 @@ Customize the default page greeting of the Nginx Docker image by adding a single
 
 ## Running the container
 
+The only parameter you need to specify is **-e MSG='Whatever text you want to show'**
+
+So...
+
 ```bash
 $ docker run -p 8081:80 -e MSG='Hello from Server A' --name serv_a herreriasjose/nginx
 ```
